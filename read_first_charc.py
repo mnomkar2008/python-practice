@@ -2,7 +2,7 @@
 
 def read_first_letter(filename):
 	"""
-	Alternate solution to print 
+	Solution to print 
 	first character of the string
 	read from a file.
 	"""
@@ -18,9 +18,8 @@ def read_first_letter(filename):
 
 def reverse_text(filename):
 	"""
-	Alternate solution to print 
-	first character of the string
-	read from a file.
+	Reverses entire content of the file.
+	Last line will become first line and so on.
 	"""
 
 	with open(filename) as fd:
