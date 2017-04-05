@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python
 
 def read_first_letter(filename):
 	"""
@@ -54,12 +54,15 @@ def alternate(filename):
 		if item != "":
 			print "first letter : ", item[0]
 
-
-if __name__ == '__main__':
-
+def main():
         filename = "first_letter_read.txt"
 	read_first_letter(filename)
 	alternate(filename)
 	reverse_text(filename)
+	
+
+if __name__ == '__main__':
+	main()
+
 
 
